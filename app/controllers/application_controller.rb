@@ -21,5 +21,7 @@ class ApplicationController < Sinatra::Base
     @recipes = Recipe.find(params[:id].to_i)
     erb :edit 
   end 
+  
+  get 
 
 end
